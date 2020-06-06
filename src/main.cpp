@@ -564,7 +564,7 @@ ArduCar arduCar;
 void setup() 
 { 
   Serial.begin(115200);
-  Serial1.begin(38400); 
+  Serial1.begin(9600); 
 
   Serial.println("BEGIN");
   arduCar.initMode();
